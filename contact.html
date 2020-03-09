@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Silk Road</title>
+    <meta name="Keywords" content="Silk Road,The route of the Silk Road,New Silk Road,Map of the Silk Road,The story of the Silk Road " />
+    <meta name="Description" content="The Silk Road, referred to as the Silk Road for short, generally refers to the Silk Road on land. Broadly speaking, it is divided into the Silk Road on the Sea and the Silk Road at Sea  " />
+    <link href="css/style.css" rel="stylesheet" type="text/css" /> 
+</head>
+<body>
+    <div class="head">
+        <div class="logo">
+            <a href="index.html">SILK ROAD</a></div>
+        <div class="lan">
+            <a href="#">中文</a> <a href="#">English</a>
+        </div>
+        <div class="search">
+            <input value="Silkroad" />
+            <img src="images/search.jpg" />
+        </div>
+        <div class="clr">
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="research.html">Research progress</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="res.html">Resources</a></li>
+            <li class="act"><a href="contact.html">Contact</a></li>
+            <div class="clr">
+            </div>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="pdd contact">
+            <h1>
+                Get In Touch</h1>
+            <p>
+                <span>Phone:</span>715-864-5315</p>
+            <p>
+                <span>Emial:</span> zhangj7510@uwec.edu</p>
+            <p>
+                <span>Address:</span> 642 UNIVERSITY DRIVE, EAU CLAIRE, WI 29405</p>
+            <p>
+                We would like to hear from you! Please use the form below to let us kown if you
+                would like to learn more about silk road.</p>
+            <ul>
+                <li>
+                    <label>
+                        Frist Name</label>
+                    <input class="txt" />
+                </li>
+                <li>
+                    <label>
+                        Last Name</label>
+                    <input class="txt" /></li>
+                <li>
+                    <label>
+                        Email</label>
+                    <input class="txt" /></li>
+                <li>
+                    <label>
+                        Phone Number</label>
+                    <input class="txt" /></li>
+                <li>
+                    <label>
+                        Zip Code</label>
+                    <input class="txt" /></li>
+                <li style="width: 100%;">
+                    <label>
+                        Do you have any other feedback or questions that you would like to share with us?</label>
+                    <textarea id="TextArea1" cols="20" rows="2"></textarea>
+                </li>
+                <li>
+                    <input id="Submit1" type="submit" value="submit" />
+                </li>
+                <div class="clr">
+                </div>
+            </ul>
+            <p class="con">
+                <a href="contact.html">contact us</a> <span>© Created by Jingzhou Zhang</span></p>
+        </div>
+    </div>
+    <a href="javascript:;" id="btn" title="back to top">back to top</a>
+    <script>
+        window.onload = function () {
+            var obtn = document.getElementById('btn');
+            obtn.onclick = function () {
+                var osTop = document.documentElement.scrollTop || document.body.scrollTop;
+                document.documentElement.scrollTop = document.body.scrollTop = -200;
+            };
+        }  
+    </script>
+</body>
+</html>
