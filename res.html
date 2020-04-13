@@ -1,8 +1,9 @@
 ﻿<!DOCTYPE html >
-<html>
+<html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Silk Road</title>
+    <link rel="shortcut icon" href="favicon.ico" />
     <meta name="Keywords" content="Silk Road,The route of the Silk Road,New Silk Road,Map of the Silk Road,The story of the Silk Road " />
     <meta name="Description" content="The Silk Road, referred to as the Silk Road for short, generally refers to the Silk Road on land. Broadly speaking, it is divided into the Silk Road on the Sea and the Silk Road at Sea  " />
     <link href="css/style.css" rel="stylesheet" type="text/css" /> 
@@ -16,7 +17,7 @@
         </div>
         <div class="search">
             <input value="Silkroad" />
-            <img src="images/search.jpg" />
+            <img src="images/search.jpg" alt="Silk Road" />
         </div>
         <div class="clr">
         </div>
@@ -24,36 +25,25 @@
     <div class="nav">
         <ul>
             <li><a href="about.html">About</a></li>
-            <li><a href="research.html">Research progress</a></li>
+            <li><a href="research.html">Research</a></li>
             <li><a href="project.html">Project</a></li>
             <li class="act"><a href="res.html">Resources</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <div class="clr">
-            </div>
+            <li><a href="contact.html">Contact</a></li> 
         </ul>
     </div>
     <div class="content research">
         <div class="pdd">
             <div class="left">
                 <ul>
-                    <li><a href="#s1">Bibiliography</a></li>
+                    <li><a href="#s1">Bibliography</a></li>
                     <li><a href="#s2">Institution</a></li>
                     <li class="lastl"><a href="#">&nbsp;</a></li>
                 </ul>
             </div>
             <div class="right">
                 <p id="s1" class="title">
-                    Bibiliography</p>
+                    Bibliography</p>
                 <p class="sec1  ">
-                    Antiquity
-                    <br />
-                    68 (1994): 406-18
-                    <br />
-                    Francforrt H.-P. "The Central Asian dimension of the symbolic system in Bactria
-                    and Margiana"
-                    <br />
-                    Aramco World
-                    <br />
                     September/October 1997, Volume 48, Number 5
                     <br />
                     Holt, Frank L., "The Autobiography of a Coin"
@@ -73,15 +63,19 @@
                     September/October 1997, Volume 48, Number 5
                     <br />
                     Warsh David, "Found: "Mountain Mouse Ants""
+                    <br />
+                    <br />
                 </p>
                 <p id="s2" class="title">
                     Institution</p>
                 <p class="sec1  ">
-                    Africa
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b>Africa</b>
                     <br />
                     Banha University, Egypt
                     <br />
-                    Asia
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b>Asia</b>
                     <br />
                     Harbin Institute of Technology, China<br />
                     Xi’an Jiaotong University, China<br />
@@ -93,11 +87,14 @@
                     Nazarbayev University, Kazakhstan<br />
                     Al-Farabi Kazakh National University, Kazakhstan<br />
                     Kazakh Academy of Transport and Communications, Kazakhstan<br />
-                    Australia<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b>Australia</b>
+                    <br />
                     University of New South Wales, Australia<br />
                     Charles Darwin University, Australia<br />
                     The University of Newcastle, Australia.<br />
-                    Europe
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b>Europe</b>
                     <br />
                     University of Liverpool, United Kingdom<br />
                     Vistula University, Poland<br />
@@ -115,7 +112,8 @@
                     University of Pavia, Italy<br />
                     University of Aberdeen, United Kingdom<br />
                     University of Zagreb, Croatia<br />
-                    North America
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b>North America</b>
                     <br />
                     Washington University in St. Louis, USA<br />
                 </p>
@@ -127,14 +125,6 @@
         </div>
     </div>
     <a href="javascript:;" id="btn" title="back to top">back to top</a>
-    <script>
-        window.onload = function () {
-            var obtn = document.getElementById('btn');
-            obtn.onclick = function () {
-                var osTop = document.documentElement.scrollTop || document.body.scrollTop;
-                document.documentElement.scrollTop = document.body.scrollTop = -200;
-            };
-        }  
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>

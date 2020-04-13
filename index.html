@@ -1,11 +1,12 @@
 ﻿<!DOCTYPE html >
-<html>
+<html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Silk Road</title>
+    <link rel="shortcut icon" href="favicon.ico" />
     <meta name="Keywords" content="Silk Road,The route of the Silk Road,New Silk Road,Map of the Silk Road,The story of the Silk Road " />
     <meta name="Description" content="The Silk Road, referred to as the Silk Road for short, generally refers to the Silk Road on land. Broadly speaking, it is divided into the Silk Road on the Sea and the Silk Road at Sea  " />
-    <link href="css/style.css" rel="stylesheet" type="text/css" /> 
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div class="head">
@@ -16,7 +17,7 @@
         </div>
         <div class="search">
             <input value="Silkroad" />
-            <img src="images/search.jpg" />
+            <img src="images/search.jpg" alt="Silk Road" />
         </div>
         <div class="clr">
         </div>
@@ -24,12 +25,10 @@
     <div class="nav">
         <ul>
             <li><a href="about.html">About</a></li>
-            <li><a href="research.html">Research progress</a></li>
+            <li><a href="research.html">Research</a></li>
             <li><a href="project.html">Project</a></li>
             <li><a href="res.html">Resources</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <div class="clr">
-            </div>
         </ul>
     </div>
     <div class="content">
@@ -40,7 +39,7 @@
             </p>
             <p class="img">
                 <a href="project.html">
-                    <img src="images/banner.jpg" id="img" /></a>
+                    <img src="images/banner.jpg" id="img" alt="Silk Road" /></a>
             </p>
             <script>
                 var a = ["banner.jpg", "banner1.jpg", "banner2.jpg"];
@@ -63,19 +62,13 @@
                 }
                 tID = setInterval("setTime()", 1000);
             </script>
+            <a href="https://en.wikipedia.org/wiki/Silk_Road"
+                target="_blank">more>></a>
             <p class="con">
                 <a href="contact.html">contact us</a> <span>© Created by Jingzhou Zhang</span></p>
         </div>
     </div>
     <a href="javascript:;" id="btn" title="back to top">back to top</a>
-    <script>
-        window.onload = function () {
-            var obtn = document.getElementById('btn');
-            obtn.onclick = function () {
-                var osTop = document.documentElement.scrollTop || document.body.scrollTop;
-                document.documentElement.scrollTop = document.body.scrollTop = -200;
-            };
-        }  
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
